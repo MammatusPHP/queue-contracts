@@ -1,0 +1,37 @@
+{
+    "name": "mammatus/queue-contracts",
+    "description": "\ud83d\udcdc Queue contracts",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "wyrihaximus/test-utilities": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mammatus\\Queue\\Contracts\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true
+        },
+        "platform": {
+            "php": "8.2.13"
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer normalize",
+            "composer update --lock --no-scripts"
+        ],
+        "post-update-cmd": [
+            "composer normalize",
+            "composer update --lock --no-scripts"
+        ]
+    }
+}
