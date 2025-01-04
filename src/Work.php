@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 namespace Mammatus\Queue\Contracts;
 
-interface Work
+interface Work extends \JsonSerializable
 {
 }
