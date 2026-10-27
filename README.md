@@ -1,6 +1,6 @@
 # Contracts for the queue manager
 
-[![Continuous Integration](https://github.com/MammatusPHP/queue-contracts/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/MammatusPHP/queue-contracts/actions/workflows/ci.yml)
+[![Continuous Integration](https://github.com/MammatusPHP/queue-contracts/actions/workflows/ci.yaml/badge.svg?event=push)](https://github.com/MammatusPHP/queue-contracts/actions/workflows/ci.yaml)
 [![Latest Stable Version](https://poser.pugx.org/mammatus/queue-contracts/v/stable.png)](https://packagist.org/packages/mammatus/queue-contracts)
 [![Total Downloads](https://poser.pugx.org/mammatus/queue-contracts/downloads.png)](https://packagist.org/packages/mammatus/queue-contracts)
 [![License](https://poser.pugx.org/mammatus/queue-contracts/license.png)](https://packagist.org/packages/mammatus/queue-contracts)
